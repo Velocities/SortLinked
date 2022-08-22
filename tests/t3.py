@@ -1,9 +1,8 @@
-#!/bin/python3
-from bin.Node import Node
-from scripts.main import *
+from bin.Node import *
+from bin.scripts.main import *
 
 h = Node(6, Node(1, Node(2)))
-b = Solution
+b = Solution()
 ans = b.sortLink(h)
 final = []
 getVals(ans, final)
