@@ -1,6 +1,5 @@
 #!/bin/bash
 
-../tests/t1.py
-../tests/t2.py
-../tests/t3.py
-
+python3 tests/t1.py
+python3 tests/t2.py
+python3 tests/t3.py
